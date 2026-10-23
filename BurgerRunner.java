@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
-public class BurgerRunner {
-
-    public static void main(String[] args) {
+public class BurgerRunner
+{
+    public static void main(String[] args)
+    {
         Scanner scanner = new Scanner(System.in);
 
         // Call the static method directly using: ClassName.methodName(arguments)
