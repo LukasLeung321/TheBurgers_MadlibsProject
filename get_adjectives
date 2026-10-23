@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class get_adjectives {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String adjective = get_adjective(scanner);
+        System.out.println("You entered the adjective: " + adjective);
+        scanner.close();
+    }
+
+    public static String get_adjective(Scanner scanner) {
+        System.out.print("Enter an adjective: ");
+        String adjectiveInput = scanner.nextLine();
+        return adjectiveInput;
+    }
+}
