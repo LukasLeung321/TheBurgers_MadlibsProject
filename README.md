@@ -26,12 +26,12 @@
    - Make the names of your program exactly your input type's name with "get_" at the front (ex. Tyler's input type[places] = function name = get_place())
  
 * Completion:
-  - Aryan(nouns):
-  - Lukas(verbs):
-  - Tyler(places):
-  - Anjini(adjectives):
-  - Poorna(adverbs):
-  - Fyeha(numbers):
+  - Aryan(nouns): Done
+  - Lukas(verbs): Done
+  - Tyler(places): Done
+  - Anjini(adjectives): Done
+  - Poorna(adverbs): Done
+  - Fyeha(numbers): Done
 
 * Story: Must be in order!
    - Tyler: Once upon a time in [place], the city above [place], there were a bunch of [adjective] [noun]. Then, there came a [adjective] burger. His main goal was to [verb] the world.
