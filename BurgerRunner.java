@@ -1,3 +1,4 @@
+// Here lies the import for the scanner methods
 import java.util.Scanner;
 
 public class BurgerRunner {
@@ -55,12 +56,14 @@ public class BurgerRunner {
         String place6 = get_places.get_place(scanner);
         String adverb10 = get_adverbs.get_adverb(scanner);
         String adjective13 = get_adjectives.get_adjective(scanner);
-
+        
+        // Closes the scanner
         scanner.close();
 
-        // Story Output
+        // Makes the story:
         String story = "Once upon a time in " + place1 + ", the city above " + place2 + ", there were a bunch of " + adjective1 + " " + noun1 + ". Then, there came a " + adjective2 + " burger. His main goal was to " + verb2 + " the world. Armed with " + number1 + " golden fries, he " + adverb1 + " marched toward " + place3 + " to complete his mission. Suddenly, " + number2 + " " + adjective1 + " " + noun1 + "s appeared and tried to " + verb3 + " him. He decided to " + adverb2 + " " + verb4 + " back to " + place4 + " and feast with all " + number3 + " " + noun2 + "s. Just as the feast began, the ground started to shake and a " + adjective2 + " shadow covered the sky. A " + adjective3 + " giant fork came crashing down, and the burger realized this was the most " + adjective4 + " battle of his life. Even though he felt " + adjective5 + ", he grabbed his " + adjective6 + " spatula and got ready to fight. The burger " + adverb3 + " swung his spatula at the fork, but the fork " + adverb4 + " dodged and tried to " + verb5 + " him into the ground. Covered in ketchup, the burger climbed onto a " + adjective7 + " " + noun3 + " to " + verb6 + " the whole battlefield. From up there, he " + adverb5 + " spotted a " + adjective8 + " " + noun4 + " secretly controlling the fork from inside a giant " + noun5 + ". " +"The burger realized that to stop the fork, he had to " + verb7 + " the giant " + noun6 + " entirely. He " + adverb6 + " leaped from his high perch, slicing through the air like a " + adjective9 + " laser. With one final, " + adjective10 + " blow of his spatula, he managed to " + verb8 + " the machine's control panel. The fork froze in mid-air, the secret controller " + adverb7 + " surrendered, and the entire city of " + place5 + " cheered for their savory savior. With the control panel completely destroyed, the giant " + noun7 + " began to " + verb9 + " into a mountain of " + noun8 + ". The secret controller, now weeping " + adverb8 + ", confessed that he only wanted a bite of the " + adjective11 + " burger. Feeling " + adjective12 + ", the savory savior shared his golden fries, proving that peacebe " + adverb9 + " won through kindness. From that day on, the city of " + place6 + " lived " + adverb10 + " ever after, celebrating every anniversary with a massive, " + adjective13 + " feast.";
-
+        
+        // Outputs the story
         System.out.println(story);
     }
 }
